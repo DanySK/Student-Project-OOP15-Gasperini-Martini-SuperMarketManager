@@ -1,0 +1,71 @@
+Found a 5 line (80 tokens) duplication in the following files: 
+Starting at line 97 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/controller/ProductControllerImpl.java
+Starting at line 220 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/controller/ProductControllerImpl.java
+
+		for (int i = 0; i < modelMarket.getListDepartment().size(); i++) {
+
+			for (int j = 0; j < modelMarket.getListDepartment().get(i).getListProduct().size(); j++) {
+
+				if (modelMarket.getListDepartment().get(i).getListProduct().get(j).getCodeProduct() == code) {
+=====================================================================
+Found a 7 line (75 tokens) duplication in the following files: 
+Starting at line 200 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/controller/ProductControllerImpl.java
+Starting at line 218 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/controller/ProductControllerImpl.java
+
+	public boolean checkName(String name) {
+
+		for (int i = 0; i < modelMarket.getListDepartment().size(); i++) {
+
+			for (int j = 0; j < modelMarket.getListDepartment().get(i).getListProduct().size(); j++) {
+
+				if (modelMarket.getListDepartment().get(i).getListProduct().get(j).getName().equals(name)) {
+=====================================================================
+Found a 5 line (73 tokens) duplication in the following files: 
+Starting at line 97 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/controller/ProductControllerImpl.java
+Starting at line 202 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/controller/ProductControllerImpl.java
+
+		for (int i = 0; i < modelMarket.getListDepartment().size(); i++) {
+
+			for (int j = 0; j < modelMarket.getListDepartment().get(i).getListProduct().size(); j++) {
+
+				if (modelMarket.getListDepartment().get(i).getListProduct().get(j).getCodeProduct() == code) {
+=====================================================================
+Found a 13 line (62 tokens) duplication in the following files: 
+Starting at line 32 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/view/DirectProductDepartmentViewImpl.java
+Starting at line 34 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/view/ManagementProductViewImpl.java
+
+	public DirectProductDepartmentViewImpl() {
+
+		this.setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+
+		this.setVisible(true);
+		this.setResizable(false);
+
+		this.setSize(700, 500);
+		this.setBounds(300, 175, this.getWidth(), this.getHeight());
+
+		this.setLayout(new BorderLayout());
+
+		this.add(departmentPanel, BorderLayout.NORTH);
+=====================================================================
+Found a 6 line (59 tokens) duplication in the following files: 
+Starting at line 57 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/view/ModifyDepartmentViewImpl.java
+Starting at line 57 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/view/ModifyProductImpl.java
+
+		insertPanel.add(displayName);
+		displayName.setFont(Utility.Utility.fontDisplay);
+		spring.putConstraint(SpringLayout.NORTH, displayName, 100,
+				SpringLayout.NORTH, this.getContentPane());
+		spring.putConstraint(SpringLayout.WEST, displayName, 40,
+				SpringLayout.WEST, this.getContentPane());
+=====================================================================
+Found a 6 line (50 tokens) duplication in the following files: 
+Starting at line 64 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/view/InsertDepartmentImpl.java
+Starting at line 58 of /home/danysk/Dropbox/Didattica/2015-16/Programmazione ad Oggetti/Progetti/oop15-supermarketmng-gasperini-martini/src/view/ModifyProductImpl.java
+
+		displayName.setFont(fontDisplay);
+		spring.putConstraint(SpringLayout.NORTH, displayName, 100,
+				SpringLayout.NORTH, this.getContentPane());
+		spring.putConstraint(SpringLayout.WEST, displayName, 40,
+				SpringLayout.WEST, this.getContentPane());
+		mainPanel.add(displayMaxProduct);

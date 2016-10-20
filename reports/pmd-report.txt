@@ -1,0 +1,294 @@
+src/Application/Launcher.java:1:	Package name contains upper case characters
+src/Application/Launcher.java:17:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/Application/Launcher.java:19:	Parameter 'args' is not assigned and could be declared final
+src/Application/Launcher.java:21:	Local variable 'panel' could be declared final
+src/Application/Launcher.java:23:	Local variable 'superMarket' could be declared final
+src/Application/Launcher.java:25:	Local variable 'mainController' could be declared final
+src/Utility/Utility.java:1:	Package name contains upper case characters
+src/Utility/Utility.java:33:	Variables that are final and static should be all capitals, 'fontTitle' is not all capitals.
+src/Utility/Utility.java:34:	Variables that are final and static should be all capitals, 'fontDisplay' is not all capitals.
+src/controller/DepartmentControllerImpl.java:25:	Private field 'modelMarket' could be made final; it is only initialized in the declaration or constructor.
+src/controller/DepartmentControllerImpl.java:31:	Parameter 'modelMarket' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:31:	Parameter 'nextPanel' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:31:	Parameter 'precPanel' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:39:	Parameter 'directPanel' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:39:	Parameter 'modelMarket' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:40:	Parameter 'modify' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:48:	Parameter 'codeRepart' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:48:	Parameter 'max' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:48:	Parameter 'name' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:51:	Local variable 'newDepartment' could be declared final
+src/controller/DepartmentControllerImpl.java:58:	Parameter 'code' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:58:	Parameter 'displayNameDepartment' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:58:	Parameter 'max' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:58:	Parameter 'name' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:83:	Avoid unnecessary comparisons in boolean expressions
+src/controller/DepartmentControllerImpl.java:115:	Parameter 'name' is not assigned and could be declared final
+src/controller/DepartmentControllerImpl.java:129:	Parameter 'code' is not assigned and could be declared final
+src/controller/DirectProductDepartmentController.java:41:	Avoid modifiers which are implied by the context
+src/controller/DirectProductDepartmentController.java:41:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/controller/DirectProductDepartmentControllerImpl.java:25:	Private field 'modelMarket' could be made final; it is only initialized in the declaration or constructor.
+src/controller/DirectProductDepartmentControllerImpl.java:26:	Private field 'panel' could be made final; it is only initialized in the declaration or constructor.
+src/controller/DirectProductDepartmentControllerImpl.java:27:	Private field 'currentPanel' could be made final; it is only initialized in the declaration or constructor.
+src/controller/DirectProductDepartmentControllerImpl.java:29:	Parameter 'modelMarket' is not assigned and could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:29:	Parameter 'panel' is not assigned and could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:30:	Parameter 'currentPanel' is not assigned and could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:37:	Parameter 'department' is not assigned and could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:43:	Parameter 'departments' is not assigned and could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:43:	Parameter 'nameDepartment' is not assigned and could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:45:	Local variable 'departmentPanel' could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:46:	Local variable 'departmentController' could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:59:	Parameter 'department' is not assigned and could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:61:	Local variable 'productPanel' could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:62:	Local variable 'productController' could be declared final
+src/controller/DirectProductDepartmentControllerImpl.java:73:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/controller/MainController.java:23:	Avoid modifiers which are implied by the context
+src/controller/MainController.java:39:	Avoid modifiers which are implied by the context
+src/controller/MainControllerImpl.java:20:	Private field 'modelMarket' could be made final; it is only initialized in the declaration or constructor.
+src/controller/MainControllerImpl.java:21:	Private field 'panel' could be made final; it is only initialized in the declaration or constructor.
+src/controller/MainControllerImpl.java:23:	Parameter 'modelMarket' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:23:	Parameter 'panel' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:32:	Local variable 'productPanel' could be declared final
+src/controller/MainControllerImpl.java:33:	Local variable 'departmentController' could be declared final
+src/controller/MainControllerImpl.java:44:	Local variable 'insertProductPanel' could be declared final
+src/controller/MainControllerImpl.java:45:	Local variable 'insertProductController' could be declared final
+src/controller/MainControllerImpl.java:57:	Local variable 'directView' could be declared final
+src/controller/MainControllerImpl.java:58:	Local variable 'directController' could be declared final
+src/controller/MainControllerImpl.java:68:	Parameter 'password' is not assigned and could be declared final
+src/controller/MainControllerImpl.java:68:	Parameter 'username' is not assigned and could be declared final
+src/controller/ProductController.java:52:	Avoid modifiers which are implied by the context
+src/controller/ProductController.java:69:	Avoid modifiers which are implied by the context
+src/controller/ProductController.java:88:	Avoid modifiers which are implied by the context
+src/controller/ProductController.java:97:	Avoid modifiers which are implied by the context
+src/controller/ProductController.java:105:	Avoid modifiers which are implied by the context
+src/controller/ProductController.java:122:	Avoid modifiers which are implied by the context
+src/controller/ProductControllerImpl.java:24:	Private field 'modelMarket' could be made final; it is only initialized in the declaration or constructor.
+src/controller/ProductControllerImpl.java:31:	Parameter 'modelMarket' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:31:	Parameter 'nextPanel' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:31:	Parameter 'precPanel' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:39:	Parameter 'department' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:39:	Parameter 'modelMarket' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:40:	Parameter 'nextPanel' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:40:	Parameter 'precPanel' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:54:	Parameter 'code' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:54:	Parameter 'department' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:54:	Parameter 'index' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:54:	Parameter 'name' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:54:	Parameter 'price' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:54:	Parameter 'quantity' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:56:	Avoid unnecessary comparisons in boolean expressions
+src/controller/ProductControllerImpl.java:62:	Avoid unnecessary comparisons in boolean expressions
+src/controller/ProductControllerImpl.java:68:	Local variable 'newProdcut' could be declared final
+src/controller/ProductControllerImpl.java:78:	Parameter 'product' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:78:	Parameter 'view' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:80:	Local variable 'productPanel' could be declared final
+src/controller/ProductControllerImpl.java:81:	Local variable 'productController' could be declared final
+src/controller/ProductControllerImpl.java:92:	Parameter 'code' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:92:	Parameter 'name' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:92:	Parameter 'price' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:92:	Parameter 'quantity' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:120:	Avoid unnecessary comparisons in boolean expressions
+src/controller/ProductControllerImpl.java:133:	Avoid unnecessary comparisons in boolean expressions
+src/controller/ProductControllerImpl.java:159:	Parameter 'product' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:175:	Parameter 'department' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:175:	Parameter 'quantity' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:189:	Avoid unnecessary if..then..else statements when returning booleans
+src/controller/ProductControllerImpl.java:200:	Parameter 'name' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:218:	Parameter 'code' is not assigned and could be declared final
+src/controller/ProductControllerImpl.java:250:	Parameter 'view' is not assigned and could be declared final
+src/model/Department.java:17:	Avoid modifiers which are implied by the context
+src/model/Department.java:24:	Avoid modifiers which are implied by the context
+src/model/Department.java:31:	Avoid modifiers which are implied by the context
+src/model/Department.java:38:	Avoid modifiers which are implied by the context
+src/model/Department.java:45:	Avoid modifiers which are implied by the context
+src/model/Department.java:52:	Avoid modifiers which are implied by the context
+src/model/Department.java:59:	Avoid modifiers which are implied by the context
+src/model/Department.java:66:	Avoid modifiers which are implied by the context
+src/model/Department.java:73:	Avoid modifiers which are implied by the context
+src/model/Department.java:73:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/Department.java:80:	Avoid modifiers which are implied by the context
+src/model/Department.java:87:	Avoid modifiers which are implied by the context
+src/model/DepartmentImpl.java:18:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/DepartmentImpl.java:18:	Private field 'listProduct' could be made final; it is only initialized in the declaration or constructor.
+src/model/DepartmentImpl.java:20:	Parameter 'codeDepartment' is not assigned and could be declared final
+src/model/DepartmentImpl.java:20:	Parameter 'maxProductDepartment' is not assigned and could be declared final
+src/model/DepartmentImpl.java:20:	Parameter 'name' is not assigned and could be declared final
+src/model/DepartmentImpl.java:29:	Parameter 'name' is not assigned and could be declared final
+src/model/DepartmentImpl.java:35:	Parameter 'maxProductDepartment' is not assigned and could be declared final
+src/model/DepartmentImpl.java:40:	Parameter 'code' is not assigned and could be declared final
+src/model/DepartmentImpl.java:66:	Parameter 'product' is not assigned and could be declared final
+src/model/DepartmentImpl.java:77:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/DepartmentImpl.java:83:	Parameter 'product' is not assigned and could be declared final
+src/model/Product.java:15:	Avoid modifiers which are implied by the context
+src/model/Product.java:22:	Avoid modifiers which are implied by the context
+src/model/Product.java:29:	Avoid modifiers which are implied by the context
+src/model/Product.java:36:	Avoid modifiers which are implied by the context
+src/model/Product.java:43:	Avoid modifiers which are implied by the context
+src/model/Product.java:50:	Avoid modifiers which are implied by the context
+src/model/Product.java:57:	Avoid modifiers which are implied by the context
+src/model/Product.java:64:	Avoid modifiers which are implied by the context
+src/model/ProductImpl.java:18:	Parameter 'code' is not assigned and could be declared final
+src/model/ProductImpl.java:18:	Parameter 'name' is not assigned and could be declared final
+src/model/ProductImpl.java:18:	Parameter 'price' is not assigned and could be declared final
+src/model/ProductImpl.java:18:	Parameter 'quantity' is not assigned and could be declared final
+src/model/ProductImpl.java:46:	Parameter 'name' is not assigned and could be declared final
+src/model/ProductImpl.java:51:	Parameter 'price' is not assigned and could be declared final
+src/model/ProductImpl.java:56:	Parameter 'quantity' is not assigned and could be declared final
+src/model/ProductImpl.java:61:	Parameter 'code' is not assigned and could be declared final
+src/model/SuperMarket.java:17:	Avoid modifiers which are implied by the context
+src/model/SuperMarket.java:24:	Avoid modifiers which are implied by the context
+src/model/SuperMarket.java:31:	Avoid modifiers which are implied by the context
+src/model/SuperMarket.java:31:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/SuperMarket.java:38:	Avoid modifiers which are implied by the context
+src/model/SuperMarket.java:45:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/SuperMarket.java:50:	Avoid modifiers which are implied by the context
+src/model/SuperMarket.java:60:	Avoid modifiers which are implied by the context
+src/model/SuperMarketImpl.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/SuperMarketImpl.java:20:	Overridable method 'getListDepartmentFile' called during object construction
+src/model/SuperMarketImpl.java:24:	Parameter 'department' is not assigned and could be declared final
+src/model/SuperMarketImpl.java:37:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/SuperMarketImpl.java:43:	Parameter 'department' is not assigned and could be declared final
+src/model/SuperMarketImpl.java:53:	Local variable 'stream' could be declared final
+src/model/SuperMarketImpl.java:55:	Local variable 'osStream' could be declared final
+src/model/SuperMarketImpl.java:70:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/SuperMarketImpl.java:74:	Local variable 'stream' could be declared final
+src/model/SuperMarketImpl.java:76:	Local variable 'osStream' could be declared final
+src/model/SuperMarketImpl.java:78:	Local variable 'departmentFile' could be declared final
+src/model/SuperMarketImpl.java:91:	Local variable 'arrayEmpty' could be declared final
+src/model/SuperMarketImpl.java:92:	Consider simply returning the value vs storing it in local variable 'arrayEmpty'
+src/model/SuperMarketImpl.java:96:	Parameter 'password' is not assigned and could be declared final
+src/model/SuperMarketImpl.java:96:	Parameter 'username' is not assigned and could be declared final
+src/model/SuperMarketImpl.java:100:	Local variable 'read' could be declared final
+src/model/SuperMarketImpl.java:102:	Local variable 'bufferRead' could be declared final
+src/model/SuperMarketImpl.java:107:	Avoid assignments in operands
+src/model/SuperMarketImpl.java:109:	Local variable 'a' could be declared final
+src/model/SuperMarketImpl.java:123:	Avoid empty catch blocks
+src/view/DirectProductDepartmentView.java:28:	Avoid modifiers which are implied by the context
+src/view/DirectProductDepartmentView.java:36:	Avoid modifiers which are implied by the context
+src/view/DirectProductDepartmentView.java:36:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/DirectProductDepartmentView.java:43:	Avoid modifiers which are implied by the context
+src/view/DirectProductDepartmentView.java:50:	Avoid modifiers which are implied by the context
+src/view/DirectProductDepartmentView.java:50:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/DirectProductDepartmentViewImpl.java:24:	Use explicit scoping instead of the default package private level
+src/view/DirectProductDepartmentViewImpl.java:32:	It is a good practice to call super() in a constructor
+src/view/DirectProductDepartmentViewImpl.java:54:	Local variable 'scroll' could be declared final
+src/view/DirectProductDepartmentViewImpl.java:72:	Parameter 'controller' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:79:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/DirectProductDepartmentViewImpl.java:79:	Parameter 'departments' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:83:	Local variable 'newLabel' could be declared final
+src/view/DirectProductDepartmentViewImpl.java:85:	Local variable 'modifyButton' could be declared final
+src/view/DirectProductDepartmentViewImpl.java:86:	Local variable 'deleteDepartment' could be declared final
+src/view/DirectProductDepartmentViewImpl.java:87:	Local variable 'directProduct' could be declared final
+src/view/DirectProductDepartmentViewImpl.java:103:	Parameter 'deleteDepartment' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:103:	Parameter 'departments' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:104:	Parameter 'modifyDepartment' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:104:	Parameter 'nameDepartment' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:105:	Parameter 'directProduct' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:105:	Parameter 'view' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:110:	Parameter 'e' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:128:	Parameter 'e' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:139:	Parameter 'e' is not assigned and could be declared final
+src/view/DirectProductDepartmentViewImpl.java:149:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/DirectProductDepartmentViewImpl.java:149:	Parameter 'department' is not assigned and could be declared final
+src/view/InsertDepartment.java:17:	Avoid modifiers which are implied by the context
+src/view/InsertDepartmentImpl.java:47:	Local variable 'spring' could be declared final
+src/view/InsertDepartmentImpl.java:52:	Local variable 'fontTitle' could be declared final
+src/view/InsertDepartmentImpl.java:53:	Local variable 'fontDisplay' could be declared final
+src/view/InsertDepartmentImpl.java:120:	Parameter 'arg0' is not assigned and could be declared final
+src/view/InsertDepartmentImpl.java:131:	Parameter 'e' is not assigned and could be declared final
+src/view/InsertDepartmentImpl.java:146:	Avoid unnecessary comparisons in boolean expressions
+src/view/InsertDepartmentImpl.java:150:	Avoid unnecessary comparisons in boolean expressions
+src/view/InsertDepartmentImpl.java:185:	Parameter 'controller' is not assigned and could be declared final
+src/view/InsertProductView.java:25:	Avoid modifiers which are implied by the context
+src/view/InsertProductView.java:26:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/InsertProductView.java:33:	Avoid modifiers which are implied by the context
+src/view/InsertProductView.java:33:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/InsertProductView.java:40:	Avoid modifiers which are implied by the context
+src/view/InsertProductViewImpl.java:24:	Use explicit scoping instead of the default package private level
+src/view/InsertProductViewImpl.java:25:	Private field 'mainPanel' could be made final; it is only initialized in the declaration or constructor.
+src/view/InsertProductViewImpl.java:41:	Avoid unused constructor parameters such as 'panel'.
+src/view/InsertProductViewImpl.java:57:	Local variable 'scroll' could be declared final
+src/view/InsertProductViewImpl.java:69:	Local variable 'spring' could be declared final
+src/view/InsertProductViewImpl.java:149:	Parameter 'controller' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:157:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/InsertProductViewImpl.java:157:	Parameter 'departments' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:161:	Local variable 'newButton' could be declared final
+src/view/InsertProductViewImpl.java:172:	Parameter 'index' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:172:	Parameter 'newButton' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:173:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/InsertProductViewImpl.java:173:	Parameter 'departments' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:178:	Parameter 'e' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:188:	Parameter 'e' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:201:	Parameter 'e' is not assigned and could be declared final
+src/view/InsertProductViewImpl.java:264:	Parameter 'panel' is not assigned and could be declared final
+src/view/MainPanel.java:15:	Avoid modifiers which are implied by the context
+src/view/MainPanel.java:22:	Avoid modifiers which are implied by the context
+src/view/MainPanel.java:29:	Avoid modifiers which are implied by the context
+src/view/MainPanelImpl.java:21:	Private field 'mainPanel' could be made final; it is only initialized in the declaration or constructor.
+src/view/MainPanelImpl.java:22:	Private field 'logInPanel' could be made final; it is only initialized in the declaration or constructor.
+src/view/MainPanelImpl.java:37:	Use explicit scoping instead of the default package private level
+src/view/MainPanelImpl.java:58:	Local variable 'spring' could be declared final
+src/view/MainPanelImpl.java:59:	Local variable 'springLoginIn' could be declared final
+src/view/MainPanelImpl.java:64:	Local variable 'fontDisplay' could be declared final
+src/view/MainPanelImpl.java:65:	Local variable 'fontTitle' could be declared final
+src/view/MainPanelImpl.java:72:	Local variable 'fontDisplayLogIn' could be declared final
+src/view/MainPanelImpl.java:150:	Parameter 'e' is not assigned and could be declared final
+src/view/MainPanelImpl.java:161:	Parameter 'arg0' is not assigned and could be declared final
+src/view/MainPanelImpl.java:172:	Parameter 'arg0' is not assigned and could be declared final
+src/view/MainPanelImpl.java:184:	Parameter 'arg0' is not assigned and could be declared final
+src/view/MainPanelImpl.java:187:	Avoid unnecessary comparisons in boolean expressions
+src/view/MainPanelImpl.java:219:	Parameter 'mainController' is not assigned and could be declared final
+src/view/ManagementProductView.java:26:	Avoid modifiers which are implied by the context
+src/view/ManagementProductView.java:34:	Avoid modifiers which are implied by the context
+src/view/ManagementProductView.java:34:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/ManagementProductView.java:47:	Avoid modifiers which are implied by the context
+src/view/ManagementProductView.java:57:	Avoid modifiers which are implied by the context
+src/view/ManagementProductView.java:57:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/ManagementProductViewImpl.java:32:	Use explicit scoping instead of the default package private level
+src/view/ManagementProductViewImpl.java:34:	It is a good practice to call super() in a constructor
+src/view/ManagementProductViewImpl.java:51:	Local variable 'scroll' could be declared final
+src/view/ManagementProductViewImpl.java:84:	Parameter 'controller' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:89:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/ManagementProductViewImpl.java:89:	Parameter 'product' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:93:	Local variable 'nameProduct' could be declared final
+src/view/ManagementProductViewImpl.java:94:	Local variable 'priceProduct' could be declared final
+src/view/ManagementProductViewImpl.java:95:	Do not add empty strings
+src/view/ManagementProductViewImpl.java:95:	Local variable 'quantityProduct' could be declared final
+src/view/ManagementProductViewImpl.java:97:	Local variable 'totalPriceProduct' could be declared final
+src/view/ManagementProductViewImpl.java:99:	Local variable 'deleteProduct' could be declared final
+src/view/ManagementProductViewImpl.java:100:	Local variable 'modifyProduct' could be declared final
+src/view/ManagementProductViewImpl.java:120:	Parameter 'deleteProduct' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:120:	Parameter 'product' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:121:	Parameter 'modifyDepartment' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:121:	Parameter 'view' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:126:	Parameter 'arg0' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:137:	Parameter 'arg0' is not assigned and could be declared final
+src/view/ManagementProductViewImpl.java:147:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/view/ManagementProductViewImpl.java:147:	Parameter 'products' is not assigned and could be declared final
+src/view/ModifyDepartmentView.java:19:	Avoid modifiers which are implied by the context
+src/view/ModifyDepartmentView.java:29:	Avoid modifiers which are implied by the context
+src/view/ModifyDepartmentViewImpl.java:30:	Private field 'labelCheck' could be made final; it is only initialized in the declaration or constructor.
+src/view/ModifyDepartmentViewImpl.java:32:	Use explicit scoping instead of the default package private level
+src/view/ModifyDepartmentViewImpl.java:34:	It is a good practice to call super() in a constructor
+src/view/ModifyDepartmentViewImpl.java:44:	Local variable 'spring' could be declared final
+src/view/ModifyDepartmentViewImpl.java:96:	Parameter 'arg0' is not assigned and could be declared final
+src/view/ModifyDepartmentViewImpl.java:121:	Parameter 'controller' is not assigned and could be declared final
+src/view/ModifyDepartmentViewImpl.java:126:	Parameter 'code' is not assigned and could be declared final
+src/view/ModifyDepartmentViewImpl.java:126:	Parameter 'maxQuantity' is not assigned and could be declared final
+src/view/ModifyDepartmentViewImpl.java:126:	Parameter 'name' is not assigned and could be declared final
+src/view/ModifyDepartmentViewImpl.java:127:	Parameter 'nameDepartment' is not assigned and could be declared final
+src/view/ModifyProduct.java:19:	Avoid modifiers which are implied by the context
+src/view/ModifyProduct.java:32:	Avoid modifiers which are implied by the context
+src/view/ModifyProductImpl.java:30:	Private field 'save' could be made final; it is only initialized in the declaration or constructor.
+src/view/ModifyProductImpl.java:31:	Private field 'labelCheck' could be made final; it is only initialized in the declaration or constructor.
+src/view/ModifyProductImpl.java:32:	Use explicit scoping instead of the default package private level
+src/view/ModifyProductImpl.java:34:	It is a good practice to call super() in a constructor
+src/view/ModifyProductImpl.java:34:	Parameter 'view' is not assigned and could be declared final
+src/view/ModifyProductImpl.java:43:	Local variable 'spring' could be declared final
+src/view/ModifyProductImpl.java:109:	Parameter 'arg0' is not assigned and could be declared final
+src/view/ModifyProductImpl.java:132:	Local variable 'viewProduct' could be declared final
+src/view/ModifyProductImpl.java:146:	Parameter 'controller' is not assigned and could be declared final
+src/view/ModifyProductImpl.java:151:	Parameter 'code' is not assigned and could be declared final
+src/view/ModifyProductImpl.java:151:	Parameter 'name' is not assigned and could be declared final
+src/view/ModifyProductImpl.java:151:	Parameter 'price' is not assigned and could be declared final
+src/view/ModifyProductImpl.java:151:	Parameter 'quantity' is not assigned and could be declared final
